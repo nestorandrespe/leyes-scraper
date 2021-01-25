@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resultados",
+  "info": {
+    "name": "Resultado",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "extracto": {
+      "type": "text"
+    }
+  }
+}
